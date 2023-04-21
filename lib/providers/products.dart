@@ -44,9 +44,9 @@ class Products with ChangeNotifier {
   // var _showFavoritesOnly = false;
 
   List<Product> get items {
-    // if (_showFavoritesOnly) {
-    //   return _items.where((prodItem) => prodItem.isFavourite).toList();
-    // }
+//  if (_showFavoritesOnly) {
+//       return _items.where((prodItem) => prodItem.isFavourite).toList();
+//     }   
     return [..._items];
   }
 
